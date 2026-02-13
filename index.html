@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day 💝</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Floating hearts background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+
+    <!-- Main container -->
+    <div class="main-container">
+        <h1 class="title">Chúc Mừng Ngày Valentine 💖</h1>
+
+        <!-- Progress indicator -->
+        <div class="progress-container" id="progressContainer">
+            <p class="progress-text">Nhấp vào thanh socola để mở! (<span id="remaining">5</span> lần còn lại)</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <!-- Content area -->
+        <div class="content-area">
+            <!-- Chocolate wrapper -->
+            <div class="chocolate-wrapper" id="chocolateWrapper">
+                <div class="chocolate-container">
+                    <div class="wrapper-segment segment-1" data-segment="1"></div>
+                    <div class="wrapper-segment segment-2" data-segment="2"></div>
+                    <div class="wrapper-segment segment-3" data-segment="3"></div>
+                    <div class="wrapper-segment segment-4" data-segment="4"></div>
+                    <div class="wrapper-segment segment-5" data-segment="5"></div>
+                    <div class="chocolate-bar">
+                        <div class="chocolate-piece"></div>
+                        <div class="chocolate-piece"></div>
+                        <div class="chocolate-piece"></div>
+                        <div class="chocolate-piece"></div>
+                        <div class="chocolate-piece"></div>
+                        <div class="chocolate-piece"></div>
+                    </div>
+                </div>
+                <p class="hint">👆 Nhấp vào thanh socola</p>
+            </div>
+
+            <!-- Beautiful Rose Bouquet -->
+            <div class="reveal-container" id="revealContainer">
+                <div class="bouquet-image">
+                    <img src="https://images.unsplash.com/photo-1582794543139-8ac9cb0f7b11?w=800&q=90"
+                        alt="Bó hoa hồng đỏ Valentine" class="rose-bouquet">
+                </div>
+
+                <div class="message-container" id="messageContainer">
+                    <h2 class="message-title">Chúc Mừng Valentine! 💝</h2>
+                    <p class="message-text">
+                        Gửi đến bạn những lời chúc tốt đẹp nhất trong ngày Valentine này!
+                        Chúc bạn luôn tràn đầy niềm vui, hạnh phúc và yêu thương.
+                    </p>
+                    <p class="message-text">
+                        Dù là tình yêu, tình bạn hay tình thân, hãy trân trọng những người quan trọng bên cạnh bạn.
+                        Chúc bạn có một ngày Valentine thật ý nghĩa và đáng nhớ!
+                    </p>
+                    <p class="message-signature">
+                        💖 Happy Valentine's Day! 💖
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
