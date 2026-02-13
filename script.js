@@ -18,6 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
     initializeWrapperSegments();
     createFloatingHearts();
     startHeartAnimation();
+
+    // Hide title initially
+    const title = document.querySelector('.title');
+    title.classList.add('hidden');
 });
 
 // Initialize wrapper segment click handlers
@@ -76,6 +80,10 @@ function revealSurprise() {
 
     // Hide progress container
     progressContainer.classList.add('hidden');
+
+    // Show title
+    const title = document.querySelector('.title');
+    title.classList.remove('hidden');
 
     // Show reveal container with flowers and message
     setTimeout(() => {
